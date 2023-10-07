@@ -5,6 +5,25 @@
     "express-handlebars": "^7.1.2",
     "handlebars": "^4.7.8",
     "mysql2": "^3.6.1",
+    "node": "^20.7.0",
     "sequelize": "^6.33.0"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "clubbook",
+  "description": "Creating events for clubs",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "saragar710"
+  },
+  "keywords": [
+    "sequelize",
+    "express-handlebars"
+  ],
+  "author": "Mike R. Marcus M. Daniel P. Sara G",
+  "license": "ISC"
 }
