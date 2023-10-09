@@ -1,7 +1,13 @@
 body {
-    background-color: lightblue;
+    background-color: whitesmoke;
 }
 h1 {
     color: black;
     text-align: center;
+}
+header {
+    background-color: lightblue;
+    font-size: 25px;
+    color: black;
+
 }
