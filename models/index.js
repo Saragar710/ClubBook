@@ -6,7 +6,7 @@ User.hasMany(Club, {
   onDelete: 'CASCADE'
 });
 
-Project.belongsTo(User, {
+Club.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
