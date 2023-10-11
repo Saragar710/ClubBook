@@ -6,16 +6,6 @@ router.get('/', async (req, res) => {
   try {
     // Get all clubs and JOIN with user data
     const clubData = await Club.findAll({
-<<<<<<< HEAD
-      include: [
-        {
-          model: User,
-          attributes: ['name'],
-        },
-      ],
-=======
-
->>>>>>> 58665c674f8dfa31137bd809d4bab9e4b33194dd
     });
 
     // Serialize data so the template can read it
