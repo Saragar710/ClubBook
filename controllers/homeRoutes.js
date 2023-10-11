@@ -5,7 +5,7 @@ const withAuth = require('../utils/authorize');
 router.get('/', async (req, res) => {
   try {
     // Get all clubs and JOIN with user data
-    const projectData = await Club.findAll({
+    const clubData = await Club.findAll({
       include: [
         {
           model: User,
