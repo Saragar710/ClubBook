@@ -10,9 +10,24 @@
 </head>
 
 <body>
-    <nav>
-        <button>button</button>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/views/main.html">clubBook</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            </div>
+        </div>
+        <ul class="col-4 nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/views/layouts/login.html">Create Account or Login</a>
+            </li>
+          </ul>
     </nav>
+
+
     <div class="container text-center">
         <div class="row">
             <div id="create" class="col">
@@ -20,13 +35,15 @@
                 <h6>*Requires account create/login</h6>
                 <div class="form-floating mb-3">
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email address</label>
-                  </div>
-                  <div class="form-floating">
+                    <label for="floatingInput">Club Name</label>
+                </div>
+                <div class="form-floating">
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Password</label>
-                  </div>
+                    <label for="floatingPassword">Club Description</label>
+                </div>
+                <button type="button" class="btn btn-outline-primary">Create Club</button>
             </div>
+            
             <div id="search" class="col">
                 <h2>Search-a-Club</h2>
                 <br>
