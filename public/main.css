@@ -1,0 +1,14 @@
+:root {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image:url(../images/hiking.jpg);
+    height: auto;
+    max-width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* border-image-repeat: no-repeat; */
+    align-content: space-around;
+ 
+}
