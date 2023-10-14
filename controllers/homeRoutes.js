@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
     const clubs = clubData.map((club) => club.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('homepage', { 
+    res.render('main', { 
       clubs, 
     });
   } catch (err) {
