@@ -11,7 +11,7 @@ Club.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    clubName: {
       type: DataTypes.STRING,
       allowNull: false,
     },

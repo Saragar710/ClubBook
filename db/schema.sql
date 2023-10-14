@@ -1,3 +1,4 @@
 CREATE DATABASE if NOT EXISTS zlgshlpzyhp7bjph;
+USE DATABASE zlgshlpzyhp7bjph;
 CREATE TABLE if NOT EXISTS users;
 CREATE TABLE if NOT EXISTS clubs;
