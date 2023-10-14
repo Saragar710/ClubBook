@@ -1,0 +1,14 @@
+.bg {
+   
+    /* background-image:url("../images/hiking.jpg"); */
+
+    height: 100%;
+    position: fixed;
+    background-position: center;
+    background-size: cover;
+    max-width: fit-content;
+} 
+h3,
+h4 {
+    font-weight: 700;
+}
