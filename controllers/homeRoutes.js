@@ -12,7 +12,11 @@ router.get('/', async (req, res) => {
     const clubs = clubData.map((club) => club.get({ plain: true }));
 
     // Pass serialized data and session flag into template
+<<<<<<< HEAD
+    res.render('homepagez', { 
+=======
     res.render('main.html', { 
+>>>>>>> 2a04f304b13c98aa5a177cdf73c8e1a3d2b87c2e
       clubs, 
     });
   } catch (err) {
@@ -34,7 +38,7 @@ router.get('/club/:id', async (req, res) => {
     const club = clubData.get({ plain: true });
 
     res.render('club', {
-      ...club,
+      club,
       // logged_in: req.session.logged_in
     });
   } catch (err) {
