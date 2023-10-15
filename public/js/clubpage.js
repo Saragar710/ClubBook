@@ -5,7 +5,7 @@ const newFormHandler = async (event) => {
    
     const description = document.querySelector('#club-desc').value.trim();
   
-    if (name && needed_funding && description) {
+    if (name && description) {
       const response = await fetch(`/api/clubs`, {
         method: 'POST',
         body: JSON.stringify({ name, description }),
@@ -40,7 +40,7 @@ const newFormHandler = async (event) => {
   
   document
     .querySelector('.new-club-form')
-    .addEventListener('submit', newFormHandler);
+    .addEventListener('create', newFormHandler);
   
   document
     .querySelector('.club-list')
