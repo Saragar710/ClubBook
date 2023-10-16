@@ -1,3 +1,6 @@
+const btnSignUp = document.getElementById("btnSignUp");
+const btnLogin = document.getElementById("btnLogin");
+
 const loginFormHandler = async (event) => {
     event.preventDefault();
   //defining username (email) and password from the login html
@@ -44,13 +47,16 @@ const loginFormHandler = async (event) => {
       }
     }
   };
-  
-  document
-    .querySelector('.login-form')
-    .addEventListener('submit', loginFormHandler);
-  
-  document
-    .querySelector('.signup-form')
-    .addEventListener('submit', signupFormHandler);
 
-    document.querySelector('#login').addEventListener('click', login);
+  btnLogin.addEventListener("click",() => console.log(`You are now login with your account`))
+  btnSignUp.addEventListener("click",() => console.log(`Your account is now created..`))
+  
+  // document
+  //   .querySelector('.login-form')
+  //   .addEventListener('submit', loginFormHandler);
+  
+  // document
+  //   .querySelector('.signup-form')
+  //   .addEventListener('submit', signupFormHandler);
+
+  //   document.querySelector('#login').addEventListener('click', login);
