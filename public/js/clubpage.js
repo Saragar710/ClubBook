@@ -45,3 +45,6 @@ const newFormHandler = async (event) => {
   document
     .querySelector('.club-list')
     .addEventListener('click', delButtonHandler);
+
+    document.querySelector('#logout').addEventListener('click', logout);
+    document.querySelector('#main').addEventListener('click', main);

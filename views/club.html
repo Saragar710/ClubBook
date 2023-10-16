@@ -13,13 +13,22 @@
 <body>
    
 <!-- main? -->
-
+<nav class="navbar navbar-expand-lg bg-success bg-gradient mb-5 border-bottom border-black border-2">
+  <div class="container-fluid">
+      <a class="navbar-brand text-black fs-3" href="/views/main.html">clubBook</a>
+    
+       
+      
+     
+  </div>
+  
+  </nav>
         <!-- <div class="row"> -->
-          <div class="container text-center">
+          <!-- <div class="container text-center">
             <div id="create" class="col">
                 <h2>Welcome to Your Club</h2>
                 <!-- <h6>*Requires account create/login</h6> -->
-                <div class="form-floating mb-3">
+                <!-- <div class="form-floating mb-3">
                     <input type="userName" class="form-control" id="userName" placeholder="UserName">
                     <label for="floatingInput">Club Name</label>
                 </div>
@@ -30,22 +39,47 @@
                 <br>
                 <div class="form-floating"> 
                   <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                  <label for="floatingPassword">Club Members</label>
-                  <!-- <ol> 
-                    <li>Micheal Scott</li>
-                    <li>Stanley Hudson</li>
-                    <li>Dwight Schrute</li>
-                    <li>Jim Halpert</li>
-          
+                  <label for="floatingPassword">Club Members</label> -->
+                  <div class="container text-center">
+                    <div class="row">
+                        <div id="create" class="col">
+                            <h2>Create-a-Club</h2>
+                            <h6 class="fst-italic fw-light">*Requires account create/login</h6>
+                            <div class="form-floating mb-3 shadow bg-body-tertiary rounded">
+                                <input type="userName" class="form-control" id="userName" placeholder="UserName">
+                                <label for="floatingInput">Club Name</label>
+                            </div>
+                            <div class="form-floating mb-3 shadow bg-body-tertiary rounded">
+                                <input type="clubDescription" class="form-control" id="clubDescription"
+                                    placeholder="Club Description">
+                                <label for="clubDescription">Club Description</label>
+                            </div>
+                            <button type="button" class="btn btn-success bg-gradient text-black shadow">Create Club</button>
+                        </div>
+            
+                        <div id="search" class="col">
+                            <div class="mb-4 pb-1">
+                                <h2>Search-a-Club</h2>
+                            </div>
+                            <div class="form-floating mb-3 shadow bg-body-tertiary rounded">
+                                <input type="clubDescription" class="form-control" id="clubDescription"
+                                    placeholder="Club Description">
+                                <label for="clubDescription">Club Name</label>
+                            </div>
+                            <button type="button" class="btn btn-success bg-gradient text-black shadow">Search</button>
+                        </div>
+                    </div>
 
 
-
-
-                  </ol> -->
               </div>
+              <div class="container-fluid">
+                <a class="navbar-brand text-black fs-3" href="/views/main.html">Be A Clubber!!</a>
+              </div>
+
+              <!-- </div> -->
                 <!-- <button type="button" class="btn btn-outline-primary">Create Club</button> -->
-            </div>
-          </div>
+            <!-- </div> -->
+          <!-- </div> -->
             <!-- <div id="search" class="col">
                 <h2>Search-a-Club</h2>
                 <br>
