@@ -1,7 +1,9 @@
 body {
     font-size: larger;
     font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("../images/bir");
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    background-image: url("/ClubBook/images/snowy-bird.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
