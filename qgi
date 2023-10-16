@@ -1,0 +1,528 @@
+[33mcommit 4f2a35bd34ecee642610d01177bc538e9f623628[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Mike Reilly <mikereilly5@gmail.com>
+Date:   Sun Oct 15 22:39:17 2023 -0400
+
+    Codebook backend V2.0 corrections
+
+[33mcommit cd60d8ab87cc7a630a56d2ccabfd6c7e3e2a7a6a[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sun Oct 15 21:06:05 2023 -0700
+
+    trying something
+
+[33mcommit 6e34e44cae23e0e2b995deedb2496c2888931c68[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sun Oct 15 18:58:39 2023 -0700
+
+    added test
+
+[33mcommit a6a5c9907b5e0c5e87cff0bc15dea1bb8c947a2c[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sun Oct 15 17:23:28 2023 -0700
+
+    added route to logout in club.html updated path for images in main html
+
+[33mcommit 3943ab9b5f523165926742dbda73264eef8bc306[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sun Oct 15 11:09:19 2023 -0700
+
+    made a few changes to clubpage.js
+
+[33mcommit e84cd45099e1e00b9b185fc28a62a8826e81f975[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sun Oct 15 10:38:06 2023 -0700
+
+    added scripts for html pages
+
+[33mcommit d54fe80f7c100c894228692a7eead2477e1be839[m
+Merge: 4bf61bc 3f3ccba
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Sat Oct 14 20:20:28 2023 -0400
+
+    Merge branch 'main' of github.com:Saragar710/ClubBook
+
+[33mcommit 3f3ccba6ff5e9a88beec7211c5bbf1c9960a28d3[m
+Merge: c365389 64258f6
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 19:22:42 2023 -0700
+
+    Merge branch 'main' of github.com:Saragar710/ClubBook
+
+[33mcommit c365389190bf4bedb7772c314c73861febbb6d45[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 19:22:17 2023 -0700
+
+    update
+
+[33mcommit 5a25e421ff45924da8015c7e1003d316241e6d1c[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 19:06:47 2023 -0700
+
+    added seeds file, updated userRoutes
+
+[33mcommit 5cc39c8ed606c6eb991384ea06635114f5cd8259[m
+Merge: cb50a2c 4aa7251
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 18:35:30 2023 -0700
+
+    Merge branch 'main' of github.com:Saragar710/ClubBook
+
+[33mcommit cb50a2cb1ce3e125079920377acc37c2cbac5fa1[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 18:35:14 2023 -0700
+
+    commented out profile.js, lines in routes.js
+
+[33mcommit 4bf61bcd9a1e2a169a7583199d5af1b155e50a0f[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Sat Oct 14 20:18:14 2023 -0400
+
+    updated the visual aspect of the main html and the login html
+
+[33mcommit 64258f61a7445682aeaa8269ee77b3b6eeeb427d[m
+Merge: 57d1ba4 5a25e42
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Sat Oct 14 19:08:00 2023 -0400
+
+    Merge branch 'main' of github.com:Saragar710/ClubBook
+
+[33mcommit 57d1ba43c15f7a3b12f36b17f8b91b10f894cfc7[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Sat Oct 14 19:07:09 2023 -0400
+
+    added images to main page
+
+[33mcommit 4aa7251f449da79942d9d9f2e8afd028141e3622[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Sat Oct 14 18:28:08 2023 -0400
+
+    updated code in html pages
+
+[33mcommit 75e37583b3808249bdaaf8a789513019e136b113[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Sat Oct 14 18:09:56 2023 -0400
+
+    added carousel code to main html and created js code to randomize the images in main html carousel portion of code.
+
+[33mcommit 282bb2fc2094f3b98659b784be26e32ca4982c31[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 17:45:27 2023 -0700
+
+    added more files
+
+[33mcommit 3897192592eee8b5a0a22bd29d6390ac1b389192[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 16:27:51 2023 -0700
+
+    created new directory for css, simplified code for userjs
+
+[33mcommit 3ac18f8667b1ffc24e89f67a1c9202abd66a3583[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 14 14:38:21 2023 -0700
+
+    added pictures and clubcss
+
+[33mcommit a77dc6d24ecfe0725ccff220cb88b4038aeac080[m
+Merge: c9964ae d872c05
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Fri Oct 13 20:52:59 2023 -0400
+
+    Merge branch 'main' of github.com:Saragar710/ClubBook
+
+[33mcommit d872c05a2d49ba535f349d6d561da926fd3d4e36[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 20:46:54 2023 -0700
+
+    added picture
+
+[33mcommit c9964aec1c00542827b5fd6186acd603acb89017[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Fri Oct 13 20:52:20 2023 -0400
+
+    added nav bar to club html
+
+[33mcommit d657efd013c2abc5e857c18cce4d852ed3e9f25f[m
+Merge: bdc8452 7c39447
+Author: Daniel Polk <Danielpolk7@icloud.com>
+Date:   Fri Oct 13 20:39:02 2023 -0400
+
+    added routes for user and clubs
+
+[33mcommit bdc8452797fe55fc3fd3309b292a98c60eb9c12c[m
+Author: Daniel Polk <Danielpolk7@icloud.com>
+Date:   Fri Oct 13 20:37:39 2023 -0400
+
+    added routes for user and clubs
+
+[33mcommit e16785031c70aacd62e33660df3e06a7bf2b91e7[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 19:43:45 2023 -0700
+
+    added login.css
+
+[33mcommit 10689cd1789693c5c7db64a7d40e72895084448e[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 19:36:37 2023 -0700
+
+    tried something else
+
+[33mcommit 095bed3ab0f834e4f8811a6beb468830cb661276[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 19:33:36 2023 -0700
+
+    updated homeRoutes
+
+[33mcommit b360eceda6acac5c2e0e767025b04e35fb4a4b63[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 19:16:31 2023 -0700
+
+    updated css
+
+[33mcommit 7c3944719b7f9a15037654d339d126690d9a8430[m
+Merge: 9f01072 2a04f30
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Fri Oct 13 20:29:59 2023 -0400
+
+    added club html
+
+[33mcommit 2a04f304b13c98aa5a177cdf73c8e1a3d2b87c2e[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 20:30:31 2023 -0700
+
+    updated code
+
+[33mcommit 9f01072dc9c6b1315f2ba81bead9149df2ea5d3e[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Fri Oct 13 20:26:56 2023 -0400
+
+    added club html
+
+[33mcommit ec23b92268a495f678439848c3813e04cd96718c[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 17:00:30 2023 -0700
+
+    added to css
+
+[33mcommit 9d044fb9bce9ede2664401ee7a2a39510a2db2af[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 13 16:34:16 2023 -0700
+
+    added css
+
+[33mcommit e80d1f55c798ae5f0d6b81b441619019ca87d655[m
+Merge: 4bdbf72 00e6a1f
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 12 21:37:58 2023 -0700
+
+    Merge branch 'main' of github.com:Saragar710/ClubBook
+
+[33mcommit 4bdbf7279c2a10b715d36c36fb864194efbae343[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 12 21:37:23 2023 -0700
+
+    added image to main.css
+
+[33mcommit 00e6a1f6398aff25b816ee92e1305a0e32a73aeb[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Thu Oct 12 21:33:05 2023 -0400
+
+    added HTML main page and login page
+
+[33mcommit 14ba57ab4bfcab565acdf23abb7d04a90a128632[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Thu Oct 12 20:46:26 2023 -0400
+
+    created html pages for main and login
+
+[33mcommit 9fd7170d9c943fa3011c4f041bfa4451f1314470[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 12 20:38:12 2023 -0700
+
+    refactoring due to file name
+
+[33mcommit ec4cba62bd87803ccc7a4cf2ccad76e3a3357c73[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 12 20:15:09 2023 -0700
+
+    added file
+
+[33mcommit 3a1fee6e785f60ca8d061417f79b84dac02ba78f[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 12 19:38:56 2023 -0700
+
+    updated config
+
+[33mcommit d679d2435e02bea7346b6782e8e485f7824f4a30[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 12 18:24:43 2023 -0700
+
+    added to css file
+
+[33mcommit d8858dae95cd917322db0f9a08c15cc9c53c835a[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 12 18:05:21 2023 -0700
+
+    deleted routes directory
+
+[33mcommit f0941ec5de5cfa05dfc61a9bf68dce8f577fcd04[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Wed Oct 11 19:36:06 2023 -0700
+
+    update code
+
+[33mcommit 53fcce73c755666ebde5b3ed3ecf9792fecb4c56[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 21:29:25 2023 -0700
+
+    updated code in models
+
+[33mcommit e525c9103a7109456d9c02183d949e516cd9a951[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 21:21:27 2023 -0700
+
+    up to date
+
+[33mcommit 8f1fd5396908f61236b74a410dcc11fcd2a0b214[m
+Merge: 2edd3b6 58665c6
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 21:15:59 2023 -0700
+
+    update
+
+[33mcommit 2edd3b6553fd4204352598e2449aeb979c890a2e[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 21:12:29 2023 -0700
+
+    update
+
+[33mcommit 84a183bbc882e498626dc1db393bb50e44d5fe21[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 20:07:30 2023 -0700
+
+    updated code
+
+[33mcommit 58665c674f8dfa31137bd809d4bab9e4b33194dd[m
+Merge: 25c7525 84a183b
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Tue Oct 10 21:07:54 2023 -0400
+
+    fixed the code
+
+[33mcommit 25c7525f178248abb832eea35492cc9bdb56aeec[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Tue Oct 10 21:02:17 2023 -0400
+
+    fixed the code
+
+[33mcommit 98f6b9f860eb8668c300c7ecdf255a84cdf7285d[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Tue Oct 10 20:00:05 2023 -0400
+
+    corrected paths on controllers folder items
+
+[33mcommit 9e191d2064a95d2f6a4871d1e9402380adb557c4[m
+Author: Marcus Matthews <mlmatthews75@gmail.com>
+Date:   Tue Oct 10 19:54:53 2023 -0400
+
+    added updated conneciton.js file information
+
+[33mcommit eca2ea89eb30ac7895fda26ed2a34f9df322f5c1[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 19:56:42 2023 -0700
+
+    added authorize.js
+
+[33mcommit acfdb360d14aa939cb229c9ba63f6e8c0f4e5adb[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 19:43:45 2023 -0700
+
+    added code
+
+[33mcommit a70074d3b62a96716fe9a7598ae7d37ff2c9e3d2[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 19:30:31 2023 -0700
+
+    updated files
+
+[33mcommit 4c2b3ef8385d14c731182cb80ea02d5a68570262[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 19:25:19 2023 -0700
+
+    added files to controllers
+
+[33mcommit 4d46227f8f3a29baffac427082fa049a4810c98a[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 19:19:12 2023 -0700
+
+    added files to models
+
+[33mcommit 544f1e3252d67fa4b57d03f37923649ff18e6d93[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 18:50:06 2023 -0700
+
+    moved files to js
+
+[33mcommit 3ad6ea200da7fbf5be6459f6cba4e6697aba966b[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 10 18:44:25 2023 -0700
+
+    added js files
+
+[33mcommit 5c49b6fb756184da38b06b8e57c19bc913048548[m
+Author: Daniel Polk <118316648+Dpolk98@users.noreply.github.com>
+Date:   Tue Oct 10 13:22:48 2023 -0400
+
+    Delete .env
+    
+    deleted .env
+
+[33mcommit 9ab7e4e8392a1d8dccd14854108e46885b8d85ac[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Mon Oct 9 11:09:04 2023 -0700
+
+    updated handlebarsprofile
+
+[33mcommit 71daa9d121ba05e98fb73c1fa1fdf44a724e28bb[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Mon Oct 9 11:03:40 2023 -0700
+
+    added css
+
+[33mcommit 9a97e24b626238709c45b8749b17aeb110b5a854[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sun Oct 8 12:20:13 2023 -0700
+
+    changed a few things in the handlebars section
+
+[33mcommit 1303b9ab29b1669210df57e7ac3ee8ae5383459f[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 7 19:23:55 2023 -0700
+
+    added connect-session sequelizer
+
+[33mcommit dc1669c32dafd60bf7bc5f3617eddfb84755d4ce[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 7 18:37:59 2023 -0700
+
+    added express-session
+
+[33mcommit db61a8ec722b45465c8eb6ad605065ba9b40139a[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Sat Oct 7 17:25:23 2023 -0700
+
+    added bcrypt
+
+[33mcommit 9da5cb7a18ab79793a233b2bb13e9c85a8458fd7[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 6 19:31:34 2023 -0700
+
+    initialized node
+
+[33mcommit b2448e13b60705b2c87bc24a13373e95584a5fce[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 6 16:56:02 2023 -0700
+
+    added gitignore
+
+[33mcommit ceac11029826d3495ef82ca677020aad088323b0[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 6 16:26:43 2023 -0700
+
+    added dotenv dependency
+
+[33mcommit 240efc997b5536ff6ee47d053e327d9e3cf0982b[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 6 15:22:22 2023 -0700
+
+    added to css and engine to server.js
+
+[33mcommit bb29a046a2e4c754c11e3969ff954f4ae324b08e[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Fri Oct 6 14:51:10 2023 -0700
+
+    added dependencies
+
+[33mcommit a46e47182e64cf36ede00015224cf9125da2b738[m
+Author: Daniel Polk <Danielpolk7@icloud.com>
+Date:   Thu Oct 5 20:51:58 2023 -0400
+
+    added express, dotenv, and session to server.js
+
+[33mcommit 0d7eaba732fb35433e0f77fe2fa546a6f996448b[m
+Author: Daniel Polk <Danielpolk7@icloud.com>
+Date:   Thu Oct 5 20:49:42 2023 -0400
+
+    added express, dotenv, and session to server.js
+
+[33mcommit 87544be62a8522a3e21a4137a62a78f8726d8bc9[m
+Merge: f79ee05 c2ec010
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 5 20:47:43 2023 -0700
+
+    Merge branch 'main' of github.com:Saragar710/ClubBook
+
+[33mcommit f79ee054eb05bc752cef52472971880d0768b594[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 5 20:46:57 2023 -0700
+
+    installed express
+
+[33mcommit 3bf1e53c6b15f19cdf41210b6a8ddd095170f737[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 5 20:24:30 2023 -0700
+
+    added more files
+
+[33mcommit 38f3eb6b3d32399ab859c222951c811a586ec1b6[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 5 20:12:58 2023 -0700
+
+    added clubhandlebars
+
+[33mcommit aec8a28ef34ee5dd62c3735cac252d8169fc9fee[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 5 20:02:22 2023 -0700
+
+    added framework
+
+[33mcommit ddb83a1a9a6c16346f8235f2148a3b2aad47ab80[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Thu Oct 5 19:43:52 2023 -0700
+
+    added veiws
+
+[33mcommit c2ec0109f1dab3db947313b3286bb3115f236b08[m
+Author: Daniel Polk <Danielpolk7@icloud.com>
+Date:   Thu Oct 5 20:43:03 2023 -0400
+
+    added JawsDB to .env and updated schema.sql to reflect the change in database
+
+[33mcommit 2a0763d9edcb96b95191928e4832059f2c653700[m
+Author: Daniel Polk <Danielpolk7@icloud.com>
+Date:   Thu Oct 5 20:21:03 2023 -0400
+
+    added folders/ base files for users_db and clubs_db, as well as connection.js, and .env
+
+[33mcommit b6ef4a73c8b3fa9d4a793cb08085581cec7c6b96[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Wed Oct 4 14:34:58 2023 -0700
+
+    added first line
+
+[33mcommit 5d12c1c6e445eb8c58615af6251da78f6b8a92a6[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 3 20:20:33 2023 -0700
+
+    setting up directorys
+
+[33mcommit 9defb6bf58afbb5ef669d04213246fce858b85ec[m
+Author: Sara Garcia <saragca81@gmail.com>
+Date:   Tue Oct 3 19:52:26 2023 -0700
+
+    started app
+
+[33mcommit ac8510fd47007f05d567d77879caf3cc637000c1[m
+Author: Saragar710 <saragca81@gmail.com>
+Date:   Tue Oct 3 16:37:40 2023 -0700
+
+    Initial commit
