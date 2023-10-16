@@ -1,6 +1,11 @@
 const btnSignUp = document.getElementById("btnSignUp");
 const btnLogin = document.getElementById("btnLogin");
 
+const acctUserName = document.getElementById("acctUserName");
+const acctUserPassword = document.getElementById("acctUserPassword");
+const loginUserName = document.getElementById("loginUserName");
+const loginUserPassword = document.getElementById("loginUserPassword");
+
 const loginFormHandler = async (event) => {
     event.preventDefault();
   //defining username (email) and password from the login html
@@ -28,10 +33,6 @@ const loginFormHandler = async (event) => {
   
   const signupFormHandler = async (event) => {
     event.preventDefault();
-  
-    const name = document.querySelector('#userName-signup').value.trim();
-    //const email = document.querySelector('#email-signup').value.trim();
-    const password = document.querySelector('#password-signup').value.trim();
   
     if (name && email && password) {
       const response = await fetch('/api/users', {
