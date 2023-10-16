@@ -1,30 +1,17 @@
 require("dotenv").config();
 
 const express = require("express");
-// const session = require("express-session");
- const route = require("./controllers");
-// const exphbs = require('express-handlebars');
-// const hbs = exphbs.create({});
+const route = require("./controllers");
 
 const sequelize = require("./config/connection");
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// app.engine('handlebars', hbs.engine);
-// app.set('view engine', 'handlebars');
+app.use(express.static("public"));
+app.use(express.static("views"));
 
 app.use(route)
-
-// const sess = {
-//     secret: process.env.SESSIONSECRET,
-//     cookie: {},
-//     resave: false,
-//     saveUninitialized: false,
-//     store: new SequelizeStore({
-//         db: sequelize
-//     })
-//};
 
 const init = async () => {
     await sequelize.sync ({force: true}) 
