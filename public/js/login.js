@@ -11,9 +11,9 @@ const loginFormHandler = async (event) => {
   //defining username (email) and password from the login html
 
     // Collect values from the login form
-    const userName = document.querySelector('#userName-login').value.trim();
-    const password = document.querySelector('#password-login').value.trim();
-  
+    userName = loginUserName.value;
+    password = loginUserPassword.value;
+
     if (userName && password) {
       // Send POST request to the API endpoint
       const response = await fetch('/api/users/login', {
@@ -24,7 +24,7 @@ const loginFormHandler = async (event) => {
   //if ok, go to file.html
       if (response.ok) {
         // When successful, redirect to the profile page
-        document.location.replace('/club');
+        document.location.replace('/');
       } else {
         alert(response.statusText);
       }
@@ -33,11 +33,14 @@ const loginFormHandler = async (event) => {
   
   const signupFormHandler = async (event) => {
     event.preventDefault();
+
+    userName = acctUserName.value;
+    password = acctUserPassword.value;
   
-    if (name && email && password) {
+    if (userName && password) {
       const response = await fetch('/api/users', {
         method: 'POST',
-        body: JSON.stringify({ userNamename, password }),
+        body: JSON.stringify({userName, password }),
         headers: { 'Content-Type': 'application/json' },
       });
   
@@ -49,8 +52,8 @@ const loginFormHandler = async (event) => {
     }
   };
 
-  btnLogin.addEventListener("click",() => console.log(`You are now login with your account`))
-  btnSignUp.addEventListener("click",() => console.log(`Your account is now created..`))
+  btnLogin.addEventListener("click",loginFormHandler)
+  btnSignUp.addEventListener("click",signupFormHandler)
   
   // document
   //   .querySelector('.login-form')

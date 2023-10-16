@@ -21,10 +21,22 @@ const sess = {
     saveUninitialized: true    
   };
 
+//Middleware for server...
+
+//JSON > req.body middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+//Session middleware
+app.use(session(sess));
+
+//Static files for client..
 app.use(express.static("public"));
 app.use(express.static("views"));
 
 app.use(route)
+
+
 
 const init = async () => {
     await sequelize.sync ({force: true}) 
