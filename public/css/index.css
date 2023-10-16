@@ -10,7 +10,7 @@ h6 {
 
 .bg {
     /* background-image: url("/images/Boardwalk\ over\ ocean.jpg"); */
-    /* background-image:url("../images/hiking.jpg"); */
+    /* background-image:url("/images/hiking.jpg"); */
 
     height: 100%;
     position: fixed;
@@ -19,7 +19,7 @@ h6 {
     max-width: fit-content;
 } 
 /* .login.html {
-    /* background-image: url(../images/hiking.jpg); */
+    /* background-image: url(/images/hiking.jpg); */
 
     /* height: 100%;
     position: fixed;
