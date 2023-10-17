@@ -1,4 +1,12 @@
-var imageUrls = ["/images/beach-yoga.avif", "/images/hiking.avif", "/images/bookclub.avif", "/images/sharks.avif", "/images/wine club.avif"];
+var imageUrls = [
+  "/public/images/sharks.avif",
+  "/public/images/bird-watching.avif",
+  "/public/images/wine club.avif",
+  "/public/images/snowy-bird.avif",
+  "/public/images/hiking.avif",
+  "/public/images/beach-yoga.avif",
+  "/public/images/cardinal.avif"
+];
 
 
 function updateCarousel() {

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/club.css">
+    <title></title>
+</head>
+
+<body>
+
+    <!-- main? -->
+    <nav class="navbar navbar-expand-lg bg-success bg-gradient mb-5 border-bottom border-black border-2">
+        <div class="container-fluid">
+            <a class="navbar-brand text-black fs-3" href="/">clubBook</a>
+            <div>
+                <a id="start-btn" href="/" class="btn btn-success bg-gradient active">home</a>
+                <a id="start-btn" href="js/logout.js" class="btn btn-success bg-gradient active">logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <div class="row">
+            <div id="create" class="col">
+                <script>
+                    function getClubName() {
+                        // Make an AJAX request to fetch the club name from the server
+                        $.ajax({
+                            type: 'GET',
+                            url: 'co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+                            success: function (data) {
+                                // Update the club name in the HTML
+                                $('#clubName').text(data);
+                            },
+                            error: function () {
+                                // Handle errors here
+                                console.log('Error fetching club name');
+                            }
+                        });
+                    }
+
+                    // Call the function to fetch and update the club name
+                    getClubName();
+                </script>
+
+                </script>
+                <h2>**CLUB NAME**</h2>
+                <!-- <h6 class="fst-italic fw-light">*Requires account create/login</h6> -->
+                <h3 class="">`CLUB Name`</h3>
+                <h3 class="">`CLUB Description`</h3>
+                <h3 class="">`CLUB Members`
+                    <li class="">Michael Scott</li>
+                </h3>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <a class="navbar-brand text-black fs-3" href="/">Be A Clubber!!</a>
+        </div>
+        <script src="/ClubBook/public/js/clubpage.js"></script>
+        <script src="/ClubBook/public/js/logout.js"></script>
+</body>
+
+</html>
