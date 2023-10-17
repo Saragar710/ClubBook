@@ -15,10 +15,10 @@
     <!-- main? -->
     <nav class="navbar navbar-expand-lg bg-success bg-gradient mb-5 border-bottom border-black border-2">
         <div class="container-fluid">
-            <a class="navbar-brand text-black fs-3" href="/">clubBook</a>
+            <a class="navbar-brand text-black fs-3" href="/views/main.html">clubBook</a>
             <div>
-                <a id="start-btn" href="/" class="btn btn-success bg-gradient active">home</a>
-                <a id="start-btn" href="js/logout.js" class="btn btn-success bg-gradient active">logout</a>
+                <a id="start-btn" href="/views/main.html" class="btn btn-success bg-gradient active">home</a>
+                <a id="start-btn" href="/public/js/logout.js" class="btn btn-success bg-gradient active">logout</a>
             </div>
         </div>
     </nav>
@@ -27,30 +27,24 @@
         <div class="row">
             <div id="create" class="col">
                 <script>
-                    // function getClubName() {
-                    //     // Make an AJAX request to fetch the club name from the server
-                    //     $.ajax({
-                    //         type: 'GET',
-                    //         url: 'co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
-                    //         success: function (data) {
-                    //             // Update the club name in the HTML
-                    //             $('#clubName').text(data);
-                    //         },
-                    //         error: function () {
-                    //             // Handle errors here
-                    //             console.log('Error fetching club name');
-                    //         }
-                    //     });
-                    // }
+                    function getClubName() {
+                        // Make an AJAX request to fetch the club name from the server
+                        $.ajax({
+                            type: 'GET',
+                            url: 'co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+                            success: function (data) {
+                                // Update the club name in the HTML
+                                $('#clubName').text(data);
+                            }
+                        });
+                    }
 
-                    // // Call the function to fetch and update the club name
-                    // getClubName();
-                </script>
-
+                    // Call the function to fetch and update the club name
+                    getClubName();
                 </script>
                 <h2>**CLUB NAME**</h2>
                 <!-- <h6 class="fst-italic fw-light">*Requires account create/login</h6> -->
-                <h3 class="">`CLUB Name`</h3>
+                <h3 id="clubName">`CLUB Name`</h3>
                 <h3 class="">`CLUB Description`</h3>
                 <h3 class="">`CLUB Members`
                     <li class="">Michael Scott</li>
