@@ -5,7 +5,8 @@ const logout = async () => {
     });
   
     if (response.ok) {
-      document.location.replace('/');
+      //NEED TO ADD HOMEPAGE URL TO THE ("/") BELOW
+      document.location.replace("/");
     } else {
       alert(response.statusText);
     }
