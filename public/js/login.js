@@ -1,3 +1,5 @@
+const { Sequelize } = require("sequelize");
+
 const btnSignUp = document.getElementById("btnSignUp");
 const btnLogin = document.getElementById("btnLogin");
 
@@ -5,6 +7,8 @@ const acctUserName = document.getElementById("acctUserName");
 const acctUserPassword = document.getElementById("acctUserPassword");
 const loginUserName = document.getElementById("loginUserName");
 const loginUserPassword = document.getElementById("loginUserPassword");
+
+const sequelize = Sequelize;
 
 const loginFormHandler = async (event) => {
     event.preventDefault();
