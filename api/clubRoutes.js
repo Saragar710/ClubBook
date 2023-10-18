@@ -13,7 +13,7 @@ router.post('/', async (req, res) => {
     res.json(newClub);
 })
 
-router.get('/:clubName', (req, res) => {
+router.get('/', (req, res) => {
     Club.findOne(
       {
         where: { 
