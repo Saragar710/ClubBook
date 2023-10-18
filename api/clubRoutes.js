@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Club = require("../models/Club");
+const Club = require("../models/club");
 
 router.get('/', (req, res) => {
     // Get all books from the book table
