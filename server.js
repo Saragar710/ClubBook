@@ -1,7 +1,9 @@
 require("dotenv").config();
 const session = require('express-session');
 const express = require("express");
-const route = require("./api");
+//const route = require("./api");
+const userRoute = require("./api/userRoutes")
+const clubRoute = require("./api/clubRoutes")
 
 const sequelize = require("./config/connection");
 
@@ -34,7 +36,9 @@ app.use(session(sess));
 app.use(express.static("public"));
 app.use(express.static("views"));
 
-app.use(route)
+//app.use(route)
+app.use("/api",userRoute);
+app.use("/api",clubRoute);
 
 
 

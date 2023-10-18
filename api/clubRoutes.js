@@ -24,3 +24,5 @@ router.get('/:clubName', (req, res) => {
       res.json(clubData);
     });
   });
+
+  module.exports = router;
