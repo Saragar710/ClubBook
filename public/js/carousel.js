@@ -1,11 +1,11 @@
 var imageUrls = [
-  "/public/images/sharks.avif",
-  "/public/images/bird-watching.avif",
-  "/public/images/wine club.avif",
-  "/public/images/snowy-bird.avif",
-  "/public/images/hiking.avif",
-  "/public/images/beach-yoga.avif",
-  "/public/images/cardinal.avif"
+  "/images/sharks.avif",
+  "/images/bird-watching.avif",
+  "/images/wine club.avif",
+  "/images/snowy-bird.avif",
+  "/images/hiking.avif",
+  "/images/beach-yoga.avif",
+  "/images/cardinal.avif"
 ];
 
 
@@ -20,5 +20,5 @@ window.onload = updateCarousel;
 const myCarousel = document.getElementById('myCarousel')
 
 myCarousel.addEventListener('slide.bs.carousel', event => {
- 
+
 })
